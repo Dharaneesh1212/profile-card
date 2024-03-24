@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --clr-Dark-cyan: hsl(185, 75%, 39%);
+  --clr-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --clr-Dark-grayish-blue: hsl(227, 10%, 46%);
+  --clr-Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-Dark-cyan);
+  height: 100vh;
+  width: 100vw;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  font-size: 18px;
+}
+
+.container {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  -o-object-fit: contain;
+  width: 100%;
+  background-image: url(bg-pattern-card.svg);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-divider {
+  width: 100%;
+}
+
+.card-two {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  -o-object-fit: contain;
+}
+
+.img-victor {
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card-three {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  -o-object-fit: contain;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.card-three {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.no-of {
+  display: block;
+  font-weight: 700;
+}
+
+.no-of-count {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
